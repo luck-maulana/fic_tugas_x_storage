@@ -62,8 +62,8 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           children: [
-            const Text(
-              'Value',
+            Text(
+              '$_counter',
               textAlign: TextAlign.center,
             ),
             Row(
